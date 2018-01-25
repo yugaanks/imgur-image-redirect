@@ -3,7 +3,7 @@
 
   "name": "imgur-image-redirect",
   "description": "This extension redirects https://i.imgur.com/*.jpg/png pages to their default imgur page",
-  "version": "1.0",
+  "version": "1.1",
   "permissions": [
     "tabs"
   ],
@@ -15,6 +15,6 @@
 
   "content_scripts": [ {
     "js": [ "script.js" ],
-    "matches": [ "https://i.imgur.com/*.jpg", "https://i.imgur.com/*.png", "https://i.imgur.com/*.jpeg"]
+    "matches": [ "https://i.imgur.com/*.jpg", "https://i.imgur.com/*.png", "https://i.imgur.com/*.jpeg", "https://i.imgur.com/*.gif", "https://i.imgur.com/*.gifv"]
   }]
 }
